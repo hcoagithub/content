@@ -78,7 +78,7 @@ At the beginning, a project always has one commit object with no parents.  This 
 ## A Head Object is a List of Commits
 ***
 
-The heads of the repository are like the "revision history of the project."  A revision history is a list of commit objects that altogether contain all the changes that you and your other team members have made to the project files.
+The heads of the repository are like the "revision history of the project".  A revision history is a list of commit objects that altogether contain all the changes that you and your other team members have made to the project files.
 
 Every time you make a new commit, the head will move to that new commit.  This way you are able to have access to the entire project history of commits.
 
@@ -90,7 +90,7 @@ You can **move the head** if you want.  It does not necessarily have to always b
 ## You can have Several Heads (Branches)
 ***
 
-Heads mark the beginning of a revision history.  In GIT, we call the "revision history" a "branch," and it is possible to have several revision histories.
+Heads mark the beginning of a revision history.  In GIT, we call the "revision history" a "branch", and it is possible to have several revision histories.
 
 By default, every repository has one branch called Master, with its corresponding HEAD that points to the last commit of that branch.
 
@@ -117,7 +117,7 @@ This will create a .git directory in the \[project\] directory.  Make sure that 
 ## Committing Changes into the Repository
 ***
 
-After you have made some changes to the files of the project, you may want to save/submit those changes into the repository.  This is called a "commit."
+After you have made some changes to the files of the project, you may want to save/submit those changes into the repository.  This is called a "commit".
 
 To create a commit, you will need to do two things:
 
